@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-nova-transferencia',
@@ -7,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NovaTransferenciaComponent implements OnInit {
 
-   ngOnInit(): void { }
-  transferir(){
+  ngOnInit(): void {
+  }
+
+  transferir() {
     console.log('Solicitada nova transferência');
   }
 
