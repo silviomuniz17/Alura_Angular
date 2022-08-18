@@ -1,0 +1,15 @@
+<table class="tabela">
+  <thead class="tabela__cabecalho">
+  <th>Data</th>
+  <th>Valor</th>
+  <th>Destino</th>
+  </thead>
+
+  <tbody>
+  <tr *ngFor="let transferencia of transferencias">
+    <td>{{transferencia.data}}</td>
+    <td>{{transferencia.valor}}</td>
+    <td>{{transferencia.destino}}</td>
+  </tr>
+  </tbody>
+</table>
